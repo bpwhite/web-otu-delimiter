@@ -1,0 +1,240 @@
+body{ background-color: #C7E8FF;} 
+
+a:link {
+	color:#0000FF;
+	text-decoration: underline;
+	font-weight:bold;
+}    /* unvisited link */
+
+a:visited {
+	color:#660066;
+	font-weight:bold;
+	text-decoration: none;
+} /* visited link */
+
+a:hover {
+	color:white;
+	background-color: #6699CC;
+	text-decoration: underline;
+}   /* mouse over link */
+
+a:active {
+	color:#0000FF;
+}  /* selected link */
+
+
+/* Table lists (ie. projects, specimens, clusters) */
+
+div.table_list table {
+	border-width: 1px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: black;
+	border-collapse:collapse;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+div.table_list th{
+	border-width: 1px;
+	padding: 1px;
+	border-style: solid;
+	border-color: black;
+	background-color: #6699CC;
+	font-weight: bold;
+}
+
+div.table_list td{
+	border-width: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-style: solid;
+	border-color: black;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0px;
+}
+
+div.table_list tr{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+div.table_list tr.d0{
+	background-color: #ABD1FF;
+}
+
+div.table_list tr.d1{
+	background-color: #6699FF;
+}
+	
+/* Note form */
+.note_form {
+	font-size:12px;
+}
+
+div.note_form td{
+	border-width: 0px;
+	padding: 1px;
+	font-size:12px;
+}
+
+div.note_form table{
+	border-width: 0px;
+	padding: 1px;
+	background-color: #ABD1FF;
+	font-size:12px;
+}
+
+div.note_form input{
+	font-size:12px;
+	border:solid 1px;
+	width:200px;
+	margin:0px;
+}
+
+div.note_form textarea{
+	font-size:12px;
+	border:solid 1px;
+	width:200px;
+	margin:0px;
+}
+
+div.note_form button{
+	text-align:center;
+	line-height:15px;
+	font-size:10px;
+	font-weight:bold;
+}
+
+div.note_form form{
+	padding:0px;
+	margin:0px;
+}
+
+/* End note form */
+
+/* Flags form */
+
+.flags_form {
+	font-size:12px;
+}
+
+
+div.flags_form table{
+	border-width: 0px;
+	padding: 1px;
+	background-color: #ABD1FF;
+	font-size:12px;
+}
+
+/* End flags form */
+
+/* K2p dist form */
+.k2p_dist_form {
+	font-size:12px;
+}
+
+
+div.k2p_dist_form table{
+	border-width: 0px;
+	padding: 0px;
+	margin:0px;
+	background-color: #ABD1FF;
+}
+
+div.k2p_dist_form td{
+	border-width: 0px;
+	padding-right: 1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 1px;
+	font-size:12px;
+	margin:0px;
+}
+
+div.k2p_dist_form input{
+	font-size:12px;
+	border:solid 1px;
+	width:30px;
+	margin:0px;
+	padding:0px;
+}
+
+div.k2p_dist_form form{
+	padding:0px;
+	margin:0px;
+	font-size: 10px;
+}
+
+div.k2p_dist_form button{
+	text-align:center;
+	font-size:10px;
+	font-weight:bold;
+	margin:0px;
+	width: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+/* End k2p dist form */
+
+/* Master tree form */
+
+div.master_tree input{
+	font-size:10px;
+	border:solid 1px;
+	width:100px;
+	padding:0px;
+	margin:0px;
+}
+div.master_tree select{
+	font-size:10px;
+	border:solid 1px;
+	width:200px;
+	padding:0px;
+	margin:0px;
+}
+
+div.master_tree button{
+	text-align:center;
+	font-size:8px;
+	font-weight:bold;
+	margin:0px;
+}
+
+div.master_tree form{
+	padding:0px;
+	margin:0px;
+}
+
+div.master_tree table {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+div.master_tree td {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+/* End master tree */
+
+/* Warning styles */
+
+.cluster_percentage_bad{
+	color: #CC0000;
+}
+
+.cluster_percentage_good{
+	color: #009900;
+}
+
+/* End warning styles */
